@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-4-12 20:37:06 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.neu.project.model.Diagnosis" table="DIAGNOSIS">
+        <id name="diagnosisID" type="int">
+            <column name="DIAGNOSISID" />
+            <generator class="increment" />
+        </id>
+        <property name="paname" type="java.lang.String">
+            <column name="PANAME" />
+        </property>
+        <property name="appointID" type="int">
+            <column name="APPOINTID" />
+        </property>
+        <property name="respiratoryRate" type="float">
+            <column name="RESPIRATORYRATE" />
+        </property>
+        <property name="heartRate" type="float">
+            <column name="HEARTRATE" />
+        </property>
+        <property name="sysBloodPressure" type="float">
+            <column name="SYSBLOODPRESSURE" />
+        </property>
+        <property name="weight" type="float">
+            <column name="WEIGHT" />
+        </property>
+        <property name="diseasename" type="java.lang.String">
+            <column name="DISEASENAME" />
+        </property>
+        <property name="result" type="java.lang.String">
+            <column name="RESULT" />
+        </property>
+        <property name="diagdate" type="java.lang.String">
+            <column name="DIAGDATE" />
+        </property>
+    </class>
+</hibernate-mapping>

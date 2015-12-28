@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-4-8 21:09:25 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.neu.project.model.Admin" table="ADMIN">
+        <id name="adminId" type="int">
+            <column name="ADMINID" />
+            <generator class="increment" />
+        </id>
+        <property name="role_id" type="int">
+            <column name="ROLE_ID" />
+        </property>
+        <property name="adminUsername" type="java.lang.String">
+            <column name="ADMINUSERNAME" />
+        </property>
+        <property name="adminPassword" type="java.lang.String">
+            <column name="ADMINPASSWORD" />
+        </property>
+    </class>
+</hibernate-mapping>

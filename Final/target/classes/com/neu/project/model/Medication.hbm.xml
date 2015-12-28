@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-4-16 2:24:22 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.neu.project.model.Medication" table="MEDICATION">
+        <id name="medID" type="int">
+            <column name="MEDID" />
+            <generator class="increment" />
+        </id>
+        <property name="paname" type="java.lang.String">
+            <column name="PANAME" />
+        </property>
+        <property name="medDate" type="java.lang.String">
+            <column name="MEDDATE" />
+        </property>
+        <property name="appointID" type="int">
+            <column name="APPOINTID" />
+        </property>
+        <property name="drugID" type="int">
+            <column name="DRUGID" />
+        </property>
+        <property name="drugname" type="java.lang.String">
+            <column name="DRUGNAME" />
+        </property>
+        <property name="quantity" type="int">
+            <column name="QUANTITY" />
+        </property>
+        <property name="price" type="float">
+            <column name="PRICE" />
+        </property>
+        <property name="total" type="float">
+            <column name="TOTAL" />
+        </property>
+    </class>
+</hibernate-mapping>

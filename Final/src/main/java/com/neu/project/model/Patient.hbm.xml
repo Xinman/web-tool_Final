@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-4-8 21:09:25 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.neu.project.model.Patient" table="PATIENT">
+        <id name="paId" type="int">
+            <column name="PAID" />
+            <generator class="increment" />
+        </id>
+        <property name="paUsername" type="java.lang.String">
+            <column name="PAUSERNAME" />
+        </property>
+        <property name="papassword" type="java.lang.String">
+            <column name="PAPASSWORD" />
+        </property>
+        <property name="role_id" type="int">
+            <column name="ROLE_ID" />
+        </property>
+        <property name="age" type="int">
+            <column name="AGE" />
+        </property>
+        <property name="gender" type="java.lang.String">
+            <column name="GENDER" />
+        </property>
+        <property name="ssn" type="java.lang.String">
+            <column name="SSN" />
+        </property>
+        <property name="contactemail" type="java.lang.String">
+            <column name="CONTACTEMAIL" />
+        </property>
+        <property name="phone" type="java.lang.String">
+            <column name="PHONE" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/main/webapp/WEB-INF/views/docViewPatient.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/home.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/patientHome.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/patientMakeAppointment.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/patientViewDiagnosisDetails.jsp=UTF-8

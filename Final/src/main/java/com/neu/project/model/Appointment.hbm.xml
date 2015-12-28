@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-4-10 20:33:55 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.neu.project.model.Appointment" table="APPOINTMENT">
+        <id name="appId" type="int">
+            <column name="APPID" />
+            <generator class="increment" />
+        </id>
+        <property name="docname" type="java.lang.String">
+            <column name="DOCNAME" />
+        </property>
+        <property name="docCode" type="java.lang.String">
+            <column name="DOCCODE" />
+        </property>
+        <property name="description" type="java.lang.String">
+            <column name="DESCRIPTION" />
+        </property>
+        <property name="typeOfDisea" type="java.lang.String">
+            <column name="TYPEOFDISEA" />
+        </property>
+        <property name="paname" type="java.lang.String">
+            <column name="PANAME" />
+        </property>
+        <property name="makeTime" type="java.lang.String">
+            <column name="MAKETIME" />
+        </property>
+        <property name="appointDate" type="java.lang.String">
+            <column name="APPOINTDATE" />
+        </property>
+        <property name="status" type="java.lang.String">
+            <column name="STATUS" />
+        </property>
+        <property name="changeTime" type="java.lang.String">
+            <column name="CHANGETIME" />
+        </property>
+    </class>
+</hibernate-mapping>
